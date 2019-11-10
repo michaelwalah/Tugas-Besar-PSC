@@ -13,6 +13,8 @@ import java.util.Random;
 
 /**
  *
+ * @author Michael Walah
+ * @author Qolbi Fathurrohim
  * @author William Walah
  */
 public class Individu {
