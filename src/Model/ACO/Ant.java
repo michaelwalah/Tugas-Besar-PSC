@@ -16,6 +16,8 @@ import java.util.Map;
 
 /**
  *
+ * @author Michael Walah
+ * @author Qolbi Fathurrohim
  * @author William Walah
  */
 public class Ant {
