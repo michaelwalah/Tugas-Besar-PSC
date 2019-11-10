@@ -24,6 +24,8 @@ import static java.util.stream.Collectors.toMap;
 
 /**
  *
+ * @author Michael Walah
+ * @author Qolbi Fathurrohim
  * @author William Walah
  */
 public class Genetic {
