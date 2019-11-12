@@ -11,7 +11,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -24,8 +23,6 @@ import static java.util.stream.Collectors.toMap;
 
 /**
  *
- * @author Michael Walah
- * @author Qolbi Fathurrohim
  * @author William Walah
  */
 public class Genetic {
@@ -51,8 +48,7 @@ public class Genetic {
         }
         System.out.print("Insert total population: ");
         int population = Integer.parseInt(br.readLine());
-        System.out.print("Insert desired kids per couple: ");
-        int totalParent = (int) Math.ceil((population * 1.0) / (Integer.parseInt(br.readLine()) * 1.0)) + 1;
+        int totalParent = (int) Math.ceil((population * 1.0) / 2.0) + 1;
         this.parent = new Individu[totalParent];
         this.population = new Individu[population];
         int a = 10000;

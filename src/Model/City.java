@@ -7,8 +7,6 @@ package Model;
 
 /**
  *
- * @author Michael Walah
- * @author Qolbi Fathurrohim
  * @author William Walah
  */
 public class City {

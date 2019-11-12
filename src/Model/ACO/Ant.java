@@ -16,8 +16,6 @@ import java.util.Map;
 
 /**
  *
- * @author Michael Walah
- * @author Qolbi Fathurrohim
  * @author William Walah
  */
 public class Ant {
@@ -72,7 +70,7 @@ public class Ant {
                 BigDecimal two = new BigDecimal(pher.getPheromone(this.initial, entry.getKey()));
                 two = two.pow(beta);
                 indexProb[i] = one.multiply(two);
-                indexProb[i] = indexProb[i].divide(totalProb,10,RoundingMode.HALF_UP);
+                indexProb[i] = indexProb[i].divide(totalProb,10,RoundingMode.CEILING);
                 if(i!=0) indexProb[i] = indexProb[i].add(indexProb[i-1]);
                 i++;
             }

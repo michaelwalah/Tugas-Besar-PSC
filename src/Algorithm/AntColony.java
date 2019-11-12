@@ -16,8 +16,6 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Michael Walah
- * @author Qolbi Fathurrohim
  * @author William Walah
  */
 public class AntColony {
